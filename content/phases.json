@@ -1,0 +1,92 @@
+[
+  {
+    "id": "da-phase-1",
+    "pathId": "data-analyst",
+    "title": "Python & SQL Foundations",
+    "weekNumbers": [1, 2],
+    "summary": "Level up your Python with data-focused libraries and master SQL querying against a real relational database.",
+    "skills": ["Intermediate Python", "pandas", "NumPy", "PostgreSQL", "SQL JOINs & aggregations", "Jupyter notebooks"]
+  },
+  {
+    "id": "da-phase-2",
+    "pathId": "data-analyst",
+    "title": "Data Cleaning & Visualization",
+    "weekNumbers": [3, 4],
+    "summary": "Build the core analyst workflow: clean messy real-world data, create compelling charts, and apply statistical thinking.",
+    "skills": ["pandas data cleaning", "matplotlib", "plotly", "descriptive statistics", "hypothesis testing basics", "Excel/Google Sheets pivot tables"],
+    "certificate": {
+      "name": "Google Data Analytics Certificate",
+      "provider": "Coursera / Google",
+      "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "estHours": 6
+    }
+  },
+  {
+    "id": "ds-phase-1",
+    "pathId": "data-scientist",
+    "title": "ML Fundamentals with scikit-learn",
+    "weekNumbers": [5, 6],
+    "summary": "Supervised and unsupervised learning from first principles — regression, classification, clustering, and rigorous model evaluation.",
+    "skills": ["Linear & logistic regression", "Decision trees & random forests", "K-means clustering", "Cross-validation", "Confusion matrix & ROC", "Feature engineering"]
+  },
+  {
+    "id": "ds-phase-2",
+    "pathId": "data-scientist",
+    "title": "Neural Networks & Deep Learning Intro",
+    "weekNumbers": [7, 8],
+    "summary": "Build intuition for neural networks with PyTorch, then deploy a working ML model as a Streamlit app.",
+    "skills": ["PyTorch basics", "Feedforward networks", "Training loops", "Streamlit", "End-to-end ML pipeline", "Model serialization"],
+    "certificate": {
+      "name": "Machine Learning Specialization",
+      "provider": "DeepLearning.AI / Coursera",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "estHours": 12
+    }
+  },
+  {
+    "id": "ga-phase-1",
+    "pathId": "gen-ai",
+    "title": "LLM APIs & Prompt Engineering",
+    "weekNumbers": [9, 10],
+    "summary": "Work directly with Anthropic and OpenAI APIs, master prompt patterns, and build your first LLM-powered tools.",
+    "skills": ["Anthropic Claude API", "OpenAI API", "Prompt engineering patterns", "System prompts", "Temperature & sampling", "Token counting & cost management"]
+  },
+  {
+    "id": "ga-phase-2",
+    "pathId": "gen-ai",
+    "title": "Embeddings, RAG & Agents",
+    "weekNumbers": [11, 12],
+    "summary": "Build a production-grade RAG pipeline from scratch and your first agent with tool use, then deploy both publicly.",
+    "skills": ["Text embeddings", "Vector databases (Chroma/Pinecone)", "RAG architecture", "LangChain / LlamaIndex basics", "Tool use & function calling", "Agent loops"],
+    "certificate": {
+      "name": "AWS Certified AI Practitioner",
+      "provider": "AWS",
+      "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+      "estHours": 15
+    }
+  },
+  {
+    "id": "ga-phase-3",
+    "pathId": "gen-ai",
+    "title": "Fine-tuning, Evaluation & Deployment",
+    "weekNumbers": [13],
+    "summary": "Evaluate LLM apps rigorously, understand fine-tuning approaches, and deploy on Vercel and HuggingFace Spaces.",
+    "skills": ["LLM evaluation metrics", "RAGAS framework", "LoRA fine-tuning concepts", "HuggingFace Transformers", "Vercel AI SDK", "HuggingFace Spaces deployment"]
+  },
+  {
+    "id": "ae-phase-1",
+    "pathId": "ai-engineer",
+    "title": "System Design & DevOps for AI",
+    "weekNumbers": [13, 14],
+    "summary": "Design scalable AI systems, containerize applications with Docker, and set up CI/CD pipelines.",
+    "skills": ["AI system design patterns", "Docker & docker-compose", "GitHub Actions CI/CD", "Environment management", "API design for AI services", "Monitoring & observability"]
+  },
+  {
+    "id": "ae-phase-2",
+    "pathId": "ai-engineer",
+    "title": "Portfolio, Resume & Job Hunt",
+    "weekNumbers": [14, 15, 16],
+    "summary": "Build a public portfolio site, polish your resume, and execute a structured job hunt across LinkedIn, Naukri, Indeed, and Wellfound.",
+    "skills": ["Portfolio site (Next.js)", "Resume tailoring", "LinkedIn optimization", "Naukri profile (India)", "Behavioral interview prep", "DSA daily practice", "Mock interviews"]
+  }
+]

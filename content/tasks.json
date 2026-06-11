@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "w1d1",
+    "phaseId": "da-phase-1",
+    "title": "Complete Python OOP refresher: classes, inheritance, dunder methods",
+    "description": "Work through CampusX OOP lectures. Build a small BankAccount class with deposit, withdraw, and __repr__.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Python OOP Playlist", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "Python Docs — Classes", "url": "https://docs.python.org/3/tutorial/classes.html" }
+    ],
+    "week": 1,
+    "day": 1
+  },
+  {
+    "id": "w1d2",
+    "phaseId": "da-phase-1",
+    "title": "Master Python comprehensions, generators, and itertools",
+    "description": "Solve 10 exercises on list/dict/set comprehensions from Exercism. Rewrite them using generator expressions and measure memory usage.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Python Intermediate Concepts", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Exercism Python Track", "url": "https://exercism.org/tracks/python" }
+    ],
+    "week": 1,
+    "day": 2
+  },
+  {
+    "id": "w1d3",
+    "phaseId": "da-phase-1",
+    "title": "NumPy core: arrays, broadcasting, vectorized operations",
+    "description": "Complete the official NumPy quickstart + absolute beginner guide. Solve the 100 NumPy exercises (first 30).",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — NumPy Tutorial", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "100 NumPy Exercises", "url": "https://github.com/rougier/numpy-100" }
+    ],
+    "week": 1,
+    "day": 3
+  },
+  {
+    "id": "w1d4",
+    "phaseId": "da-phase-1",
+    "title": "pandas fundamentals: DataFrames, indexing, filtering, groupby",
+    "description": "Work through the pandas 10-minutes tutorial then solve the first 25 exercises on 101 pandas puzzles.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — pandas Complete Tutorial", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "101 pandas Puzzles", "url": "https://github.com/ajcr/100-pandas-puzzles" }
+    ],
+    "week": 1,
+    "day": 4
+  },
+  {
+    "id": "w1d5",
+    "phaseId": "da-phase-1",
+    "title": "SQLBolt lessons 1–9: SELECT, WHERE, ORDER, JOINs",
+    "description": "Complete SQLBolt interactive lessons 1–9. Write your own 5 queries against the provided sample data and annotate each with what it returns.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — SQL for Data Science", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "SQLBolt Interactive Lessons", "url": "https://sqlbolt.com/" }
+    ],
+    "week": 1,
+    "day": 5
+  },
+  {
+    "id": "w1-weekly",
+    "phaseId": "da-phase-1",
+    "title": "Set up local Jupyter environment + Chinook PostgreSQL database",
+    "description": "Install JupyterLab, DBeaver, and PostgreSQL locally. Download and restore the Chinook sample database. Verify you can run queries from both DBeaver and Python via psycopg2.",
+    "type": "weekly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — Data Science Environment Setup", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Chinook Database", "url": "https://github.com/lerocha/chinook-database" },
+      { "title": "DBeaver Download", "url": "https://dbeaver.io/download/" }
+    ],
+    "week": 1
+  },
+  {
+    "id": "w2d1",
+    "phaseId": "da-phase-1",
+    "title": "SQLBolt lessons 10–18: GROUP BY, HAVING, subqueries, window functions",
+    "description": "Complete SQLBolt lessons 10–18. Then write 5 window function queries (RANK, ROW_NUMBER, LAG) against the Chinook database.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Advanced SQL", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PostgreSQL Window Functions", "url": "https://www.postgresql.org/docs/current/tutorial-window.html" }
+    ],
+    "week": 2,
+    "day": 1
+  },
+  {
+    "id": "w2d2",
+    "phaseId": "da-phase-1",
+    "title": "Advanced pandas: merge, reshape, pivot tables, time-series indexing",
+    "description": "Complete pandas exercises 26–60 from 101 pandas puzzles, focusing on merge/join patterns and reshaping with melt/pivot.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — pandas Advanced Operations", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "101 pandas Puzzles", "url": "https://github.com/ajcr/100-pandas-puzzles" }
+    ],
+    "week": 2,
+    "day": 2
+  },
+  {
+    "id": "w2d3",
+    "phaseId": "da-phase-1",
+    "title": "Python file I/O: CSV, JSON, Excel with pandas and openpyxl",
+    "description": "Write scripts to read/write CSV, JSON, and Excel. Practice reading a multi-sheet Excel workbook and writing aggregated results back.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — File Handling in Python", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "pandas IO Docs", "url": "https://pandas.pydata.org/docs/user_guide/io.html" }
+    ],
+    "week": 2,
+    "day": 3
+  },
+  {
+    "id": "w2d4",
+    "phaseId": "da-phase-1",
+    "title": "Query the Chinook DB with Python: answer 10 business questions with SQL + pandas",
+    "description": "Write a Jupyter notebook with 10 business questions about the Chinook music store (top artists by revenue, monthly sales trend, customer LTV). Answer each with a SQL query via psycopg2 and visualize with a simple chart.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — SQL + Python Integration", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Chinook Database Schema", "url": "https://github.com/lerocha/chinook-database/wiki/Chinook-Schema" }
+    ],
+    "week": 2,
+    "day": 4
+  },
+  {
+    "id": "w2d5",
+    "phaseId": "da-phase-1",
+    "title": "Statistics fundamentals: mean, variance, distributions, CLT in Python",
+    "description": "Work through statistics concepts covering Distributions and CLT. Replicate all formulas in Python using scipy.stats and numpy.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Statistics for Data Science", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "scipy.stats Docs", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html" }
+    ],
+    "week": 2,
+    "day": 5
+  },
+  {
+    "id": "w2-weekly",
+    "phaseId": "da-phase-1",
+    "title": "Choose EDA mini-project dataset from Kaggle and write project plan",
+    "description": "Browse Kaggle datasets. Pick one with 50k+ rows and real messiness (nulls, inconsistent formats). Write a 1-page markdown plan: questions to answer, expected cleaning steps, chart types you'll produce.",
+    "type": "weekly",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — EDA Project Walkthrough", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Kaggle Datasets", "url": "https://www.kaggle.com/datasets" }
+    ],
+    "week": 2
+  },
+  {
+    "id": "w3d1",
+    "phaseId": "da-phase-2",
+    "title": "Data cleaning: handle nulls, duplicates, outliers, type coercion in pandas",
+    "description": "Using your chosen Kaggle dataset, apply a full cleaning pipeline: audit nulls, drop/impute, remove duplicates, fix dtypes, cap outliers. Document each decision with a comment.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Data Cleaning in Python", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Kaggle Learn — Data Cleaning", "url": "https://www.kaggle.com/learn/data-cleaning" }
+    ],
+    "week": 3,
+    "day": 1
+  },
+  {
+    "id": "w3d2",
+    "phaseId": "da-phase-2",
+    "title": "matplotlib mastery: line, bar, scatter, histogram, subplots, custom styles",
+    "description": "Create 8 chart types using matplotlib on your EDA dataset. Apply a consistent custom style (colors, fonts, grid). Save to PNG for use in your notebook.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — matplotlib Complete Tutorial", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Python Graph Gallery", "url": "https://www.python-graph-gallery.com/" }
+    ],
+    "week": 3,
+    "day": 2
+  },
+  {
+    "id": "w3d3",
+    "phaseId": "da-phase-2",
+    "title": "Interactive charts with plotly: scatter, bar, choropleth, and subplots",
+    "description": "Recreate your 4 best matplotlib charts in plotly express. Add hover tooltips and titles. Embed the output HTML in your Jupyter notebook.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — plotly & Data Visualization", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "plotly Express Docs", "url": "https://plotly.com/python/plotly-express/" }
+    ],
+    "week": 3,
+    "day": 3
+  },
+  {
+    "id": "w3d4",
+    "phaseId": "da-phase-2",
+    "title": "Hypothesis testing: t-tests, chi-square, p-values — apply to your dataset",
+    "description": "Identify 2 testable hypotheses in your dataset. Run t-tests or chi-square tests using scipy.stats, interpret p-values, state conclusions clearly in markdown cells.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Hypothesis Testing", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "scipy.stats hypothesis tests", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html#statistical-tests" }
+    ],
+    "week": 3,
+    "day": 4
+  },
+  {
+    "id": "w3d5",
+    "phaseId": "da-phase-2",
+    "title": "Correlation analysis and heatmaps: Pearson, Spearman, seaborn heatmap",
+    "description": "Compute full correlation matrix on your dataset. Build a seaborn heatmap with annotations. Write a paragraph interpreting the 3 strongest correlations.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Seaborn & EDA Visualization", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "seaborn Heatmap Docs", "url": "https://seaborn.pydata.org/generated/seaborn.heatmap.html" }
+    ],
+    "week": 3,
+    "day": 5
+  },
+  {
+    "id": "w3-weekly",
+    "phaseId": "da-phase-2",
+    "title": "EDA notebook first draft: cleaning + 8 charts + statistical insights",
+    "description": "Assemble your EDA notebook with cleaned data, all charts, hypothesis tests, and a written narrative. Push to a GitHub repo and enable GitHub Pages or share as a Kaggle notebook.",
+    "type": "weekly",
+    "estMinutes": 240,
+    "resources": [
+      { "title": "CampusX — EDA Case Study", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Kaggle Notebooks", "url": "https://www.kaggle.com/code" }
+    ],
+    "week": 3
+  },
+  {
+    "id": "w4d1",
+    "phaseId": "da-phase-2",
+    "title": "Excel & Google Sheets: pivot tables, VLOOKUP, INDEX/MATCH, named ranges",
+    "description": "Download the Superstore Sales Excel dataset. Build 3 pivot tables: sales by region+category, monthly trend, top 10 customers. Use INDEX/MATCH for a lookup table.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "Leila Gharani — Excel Pivot Tables & Dashboards", "url": "https://www.youtube.com/@LeilaGharani" },
+      { "title": "Chandoo — Learn Excel", "url": "https://chandoo.org/wp/learn-excel/" },
+      { "title": "Superstore Dataset", "url": "https://www.kaggle.com/datasets/vivek468/superstore-dataset-final" }
+    ],
+    "week": 4,
+    "day": 1
+  },
+  {
+    "id": "w4d2",
+    "phaseId": "da-phase-2",
+    "title": "Build a Power BI dashboard: import CSV, create 4 visuals, publish to Power BI Service",
+    "description": "Download Power BI Desktop (free). Import your cleaned Superstore CSV. Build a 1-page report: KPI card (total sales), bar chart (sales by category), line chart (monthly trend), and map visual (sales by region). Apply a dark theme, add slicers for year and region, then publish to Power BI Service and share the public link.",
+    "type": "daily",
+    "estMinutes": 150,
+    "resources": [
+      { "title": "Leila Gharani — Power BI Full Course for Beginners", "url": "https://www.youtube.com/watch?v=TmhQCQr_l64" },
+      { "title": "Leila Gharani — Power BI Channel", "url": "https://www.youtube.com/@LeilaGharani" },
+      { "title": "Microsoft Power BI Desktop (free download)", "url": "https://www.microsoft.com/en-us/download/details.aspx?id=58494" },
+      { "title": "Power BI Guided Learning — Microsoft", "url": "https://learn.microsoft.com/en-us/power-bi/guided-learning/" }
+    ],
+    "week": 4,
+    "day": 2
+  },
+  {
+    "id": "w4d3",
+    "phaseId": "da-phase-2",
+    "title": "Advanced SQL: CTEs, recursive queries, materialized views on PostgreSQL",
+    "description": "Write 3 queries using CTEs on the Chinook DB. Build one recursive CTE for a hierarchy. Create a materialized view for the monthly sales summary.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Advanced SQL CTEs & Window Functions", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PostgreSQL CTE Docs", "url": "https://www.postgresql.org/docs/current/queries-with.html" }
+    ],
+    "week": 4,
+    "day": 3
+  },
+  {
+    "id": "w4d4",
+    "phaseId": "da-phase-2",
+    "title": "Probability distributions deep dive: normal, Poisson, binomial with scipy",
+    "description": "Model 3 real phenomena from your dataset with appropriate distributions. Plot PDF/CDF for each. Compute confidence intervals using scipy.stats.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Probability & Distributions for ML", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "scipy stats distributions", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html#continuous-distributions" }
+    ],
+    "week": 4,
+    "day": 4
+  },
+  {
+    "id": "w4d5",
+    "phaseId": "da-phase-2",
+    "title": "Polish and publish EDA notebook: add executive summary and methodology section",
+    "description": "Add an introduction cell with dataset context, a methodology section, and a conclusions cell with 5 actionable insights. Publish on Kaggle or GitHub Pages. Share the link.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Jupyter Notebook Best Practices", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Kaggle Notebooks", "url": "https://www.kaggle.com/code" }
+    ],
+    "week": 4,
+    "day": 5
+  },
+  {
+    "id": "w4-weekly",
+    "phaseId": "da-phase-2",
+    "title": "Data Analyst path review: knowledge gaps audit + certificate progress check",
+    "description": "Score yourself 1–5 on each skill in the Data Analyst path. List the 3 weakest areas. Spend remaining time reinforcing them. Check progress on Google Data Analytics certificate.",
+    "type": "weekly",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Data Analytics Roadmap", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Google Data Analytics Certificate", "url": "https://www.coursera.org/professional-certificates/google-data-analytics" }
+    ],
+    "week": 4
+  },
+  {
+    "id": "month1-milestone",
+    "phaseId": "da-phase-2",
+    "title": "Month 1 Milestone: Publish EDA project + update LinkedIn with Data Analyst skills",
+    "description": "Your EDA notebook must be live on Kaggle/GitHub. Update your LinkedIn with: pandas, SQL, Python, data visualization, statistical analysis. Write a 150-word LinkedIn post about what you learned.",
+    "type": "monthly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — Data Analyst Portfolio Tips", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "LinkedIn Profile Best Practices", "url": "https://www.linkedin.com/help/linkedin/answer/a554537" }
+    ],
+    "week": 4
+  },
+  {
+    "id": "w5d1",
+    "phaseId": "ds-phase-1",
+    "title": "scikit-learn workflow: Pipeline, ColumnTransformer, fit/predict/score pattern",
+    "description": "Read the scikit-learn Getting Started guide. Build a full preprocessing Pipeline with ColumnTransformer (scaler for numeric, OneHotEncoder for categorical) on the Titanic dataset.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of Machine Learning", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn Getting Started", "url": "https://scikit-learn.org/stable/getting_started.html" }
+    ],
+    "week": 5,
+    "day": 1
+  },
+  {
+    "id": "w5d2",
+    "phaseId": "ds-phase-1",
+    "title": "Linear & logistic regression: train, evaluate, interpret coefficients",
+    "description": "Train LinearRegression on California Housing and LogisticRegression on Titanic. Plot residuals for regression. Plot confusion matrix and ROC curve for classification.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: Linear Regression", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn Linear Models", "url": "https://scikit-learn.org/stable/modules/linear_model.html" }
+    ],
+    "week": 5,
+    "day": 2
+  },
+  {
+    "id": "w5d3",
+    "phaseId": "ds-phase-1",
+    "title": "Decision trees and random forests: hyperparameter tuning with GridSearchCV",
+    "description": "Train a DecisionTreeClassifier on Titanic, visualize the tree with graphviz. Tune max_depth and min_samples_split with GridSearchCV. Train RandomForestClassifier and compare AUC.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: Decision Trees & Random Forest", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn Ensemble Methods", "url": "https://scikit-learn.org/stable/modules/ensemble.html" }
+    ],
+    "week": 5,
+    "day": 3
+  },
+  {
+    "id": "w5d4",
+    "phaseId": "ds-phase-1",
+    "title": "Model evaluation deep dive: precision/recall tradeoff, F1, cross-val, learning curves",
+    "description": "For your Titanic classifier: plot precision-recall curve, compute F1 at 3 thresholds, run 5-fold cross-val, and plot a learning curve to diagnose bias vs variance.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: Model Evaluation", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn Model Evaluation", "url": "https://scikit-learn.org/stable/modules/model_evaluation.html" }
+    ],
+    "week": 5,
+    "day": 4
+  },
+  {
+    "id": "w5d5",
+    "phaseId": "ds-phase-1",
+    "title": "Feature engineering: binning, interaction terms, target encoding, feature importance",
+    "description": "Engineer 5 new features on Titanic (title from name, family size, cabin deck). Use RandomForest feature_importances_ to rank them. Verify improvements in cross-val AUC.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: Feature Engineering", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "Kaggle Learn — Feature Engineering", "url": "https://www.kaggle.com/learn/feature-engineering" }
+    ],
+    "week": 5,
+    "day": 5
+  },
+  {
+    "id": "w5-weekly",
+    "phaseId": "ds-phase-1",
+    "title": "Choose and set up ML mini-project dataset + problem definition",
+    "description": "Pick a Kaggle dataset suitable for an end-to-end ML project (classification or regression, 10k+ rows). Write a problem statement: business question, success metric, baseline model.",
+    "type": "weekly",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — ML Project from Scratch", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "Kaggle Datasets", "url": "https://www.kaggle.com/datasets" }
+    ],
+    "week": 5
+  },
+  {
+    "id": "w6d1",
+    "phaseId": "ds-phase-1",
+    "title": "K-means and DBSCAN clustering: choose k with elbow method, evaluate with silhouette score",
+    "description": "Apply K-means to the Mall Customer Segmentation dataset. Use the elbow method and silhouette score to choose k. Apply DBSCAN and compare cluster shapes. Visualize with PCA 2D.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: Clustering", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn Clustering", "url": "https://scikit-learn.org/stable/modules/clustering.html" }
+    ],
+    "week": 6,
+    "day": 1
+  },
+  {
+    "id": "w6d2",
+    "phaseId": "ds-phase-1",
+    "title": "PCA and dimensionality reduction: reduce to 2D, explain variance, apply to MNIST subset",
+    "description": "Apply PCA to MNIST (10k samples). Plot explained variance curve. Reduce to 2D and visualize digit clusters. Compare with UMAP on the same data.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: PCA", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn PCA", "url": "https://scikit-learn.org/stable/modules/decomposition.html#pca" }
+    ],
+    "week": 6,
+    "day": 2
+  },
+  {
+    "id": "w6d3",
+    "phaseId": "ds-phase-1",
+    "title": "Gradient boosting: XGBoost vs LightGBM on your mini-project dataset",
+    "description": "Train XGBoost and LightGBM on your ML project dataset. Tune n_estimators and learning_rate with RandomizedSearchCV. Compare against your baseline RandomForest.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML: Gradient Boosting & XGBoost", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "XGBoost Docs", "url": "https://xgboost.readthedocs.io/en/stable/" }
+    ],
+    "week": 6,
+    "day": 3
+  },
+  {
+    "id": "w6d4",
+    "phaseId": "ds-phase-1",
+    "title": "SHAP values: interpret your best model's predictions with force plots and summary plots",
+    "description": "Install shap. Apply TreeExplainer to your best model. Generate a summary plot, a force plot for 3 individual predictions, and a dependence plot for the top feature.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Model Interpretability & SHAP", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "SHAP Docs", "url": "https://shap.readthedocs.io/en/latest/" }
+    ],
+    "week": 6,
+    "day": 4
+  },
+  {
+    "id": "w6d5",
+    "phaseId": "ds-phase-1",
+    "title": "Build end-to-end ML pipeline: ingest → clean → features → train → evaluate → save model",
+    "description": "Write a single train.py script that runs your full pipeline for your ML project. Save the trained model with joblib. Write a predict.py that loads it and scores new rows from a CSV.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — End-to-End ML Project", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "scikit-learn Pipeline Docs", "url": "https://scikit-learn.org/stable/modules/compose.html" }
+    ],
+    "week": 6,
+    "day": 5
+  },
+  {
+    "id": "w6-weekly",
+    "phaseId": "ds-phase-1",
+    "title": "ML mini-project: trained model + evaluation report in Jupyter notebook",
+    "description": "Assemble your ML project notebook: data description, EDA, preprocessing, model comparison table, best model metrics, SHAP interpretations, and next steps. Push to GitHub.",
+    "type": "weekly",
+    "estMinutes": 240,
+    "resources": [
+      { "title": "CampusX — ML Case Study", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "Kaggle Notebooks", "url": "https://www.kaggle.com/code" }
+    ],
+    "week": 6
+  },
+  {
+    "id": "w7d1",
+    "phaseId": "ds-phase-2",
+    "title": "PyTorch fundamentals: tensors, autograd, and a manual linear regression",
+    "description": "Complete the official PyTorch 60-minute blitz tutorial. Implement linear regression manually (no nn.Module): forward pass, MSE loss, backward pass, gradient descent loop.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Deep Learning with PyTorch", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PyTorch 60-Minute Blitz", "url": "https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html" }
+    ],
+    "week": 7,
+    "day": 1
+  },
+  {
+    "id": "w7d2",
+    "phaseId": "ds-phase-2",
+    "title": "Build a feedforward neural network with nn.Module: MNIST digit classification",
+    "description": "Build a 3-layer MLP with nn.Module for MNIST. Use DataLoader, Adam optimizer, CrossEntropyLoss. Track training loss and val accuracy per epoch. Reach 97%+ accuracy.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Neural Networks from Scratch", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PyTorch Build Model Tutorial", "url": "https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html" }
+    ],
+    "week": 7,
+    "day": 2
+  },
+  {
+    "id": "w7d3",
+    "phaseId": "ds-phase-2",
+    "title": "CNNs with PyTorch: build LeNet-5 for CIFAR-10, apply batch norm and dropout",
+    "description": "Build a LeNet-5 style CNN for CIFAR-10. Add BatchNorm and Dropout. Compare accuracy with/without. Use torchvision.transforms for data augmentation.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Convolutional Neural Networks", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PyTorch CNN Tutorial", "url": "https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html" }
+    ],
+    "week": 7,
+    "day": 3
+  },
+  {
+    "id": "w7d4",
+    "phaseId": "ds-phase-2",
+    "title": "Transfer learning with a pretrained ResNet-18 on a custom image dataset",
+    "description": "Use torchvision's ResNet-18 pretrained on ImageNet. Freeze backbone, replace head, fine-tune on a small Kaggle image dataset (e.g. Cats vs Dogs subset). Reach 95%+ accuracy.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Transfer Learning", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PyTorch Transfer Learning Tutorial", "url": "https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html" }
+    ],
+    "week": 7,
+    "day": 4
+  },
+  {
+    "id": "w7d5",
+    "phaseId": "ds-phase-2",
+    "title": "Enrol and complete Module 1 of DeepLearning.AI Machine Learning Specialization",
+    "description": "Enrol in the Andrew Ng ML Specialization on Coursera (audit for free). Complete week 1 and 2 of Course 1: supervised learning labs in Python.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — ML Specialization Companion Notes", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "DeepLearning.AI ML Specialization", "url": "https://www.coursera.org/learn/machine-learning" }
+    ],
+    "week": 7,
+    "day": 5
+  },
+  {
+    "id": "w7-weekly",
+    "phaseId": "ds-phase-2",
+    "title": "Build Streamlit app wrapping your best ML model with a prediction form",
+    "description": "Create a Streamlit app that loads your saved joblib model, shows a form for input features, and displays the prediction with a confidence bar. Deploy free on Streamlit Community Cloud.",
+    "type": "weekly",
+    "estMinutes": 240,
+    "resources": [
+      { "title": "CampusX — Deploy ML Model with Streamlit", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Streamlit Docs", "url": "https://docs.streamlit.io/" }
+    ],
+    "week": 7
+  },
+  {
+    "id": "w8d1",
+    "phaseId": "ds-phase-2",
+    "title": "Complete DeepLearning.AI ML Specialization Course 1 (weeks 3–4 lab work)",
+    "description": "Complete Course 1 labs: neural networks in NumPy from scratch, backprop implementation, binary classification network. Submit all graded assignments.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Backpropagation Explained", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "DeepLearning.AI ML Specialization Coursera", "url": "https://www.coursera.org/specializations/machine-learning-introduction" }
+    ],
+    "week": 8,
+    "day": 1
+  },
+  {
+    "id": "w8d2",
+    "phaseId": "ds-phase-2",
+    "title": "Recurrent neural networks: LSTM for time-series prediction with PyTorch",
+    "description": "Build an LSTM that predicts the next 7 days of stock price (use yfinance for data). Evaluate with MAE. Plot predictions vs actuals.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — RNN & LSTM Tutorial", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "PyTorch LSTM Tutorial", "url": "https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html" }
+    ],
+    "week": 8,
+    "day": 2
+  },
+  {
+    "id": "w8d3",
+    "phaseId": "ds-phase-2",
+    "title": "Experiment tracking with MLflow: log params, metrics, and artifacts for your best model",
+    "description": "Install MLflow. Wrap your best ML project training loop to log hyperparameters, metrics per epoch, and the final model artifact. View results in the MLflow UI.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — MLOps & Experiment Tracking", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "MLflow Quickstart", "url": "https://mlflow.org/docs/latest/quickstart.html" }
+    ],
+    "week": 8,
+    "day": 3
+  },
+  {
+    "id": "w8d4",
+    "phaseId": "ds-phase-2",
+    "title": "Polish Streamlit app: add EDA charts tab, feature importance chart, model metrics panel",
+    "description": "Extend your Streamlit app with tabs: Predictions, Data Explorer (5 charts from your EDA), and Model Info (SHAP summary plot, metrics table). Update the GitHub README with a live demo link.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Streamlit Advanced Features", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Streamlit Multipage Apps", "url": "https://docs.streamlit.io/library/get-started/multipage-apps" }
+    ],
+    "week": 8,
+    "day": 4
+  },
+  {
+    "id": "w8d5",
+    "phaseId": "ds-phase-2",
+    "title": "Kaggle competition entry: submit your ML model to an active beginner competition",
+    "description": "Join the Titanic or House Prices Kaggle competition (or another active one). Submit your best model predictions. Aim for top 40%. Document your approach in the notebook.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Kaggle Competition Walkthrough", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "Kaggle Titanic Competition", "url": "https://www.kaggle.com/c/titanic" }
+    ],
+    "week": 8,
+    "day": 5
+  },
+  {
+    "id": "w8-weekly",
+    "phaseId": "ds-phase-2",
+    "title": "Data Scientist path wrap-up: push all projects to GitHub with polished READMEs",
+    "description": "Ensure both projects (EDA notebook + Streamlit ML app) have GitHub repos with: demo link, screenshot, setup instructions, and a description of the approach. Add them to LinkedIn Featured section.",
+    "type": "weekly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — Data Science Portfolio Building", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "GitHub README Best Practices", "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes" }
+    ],
+    "week": 8
+  },
+  {
+    "id": "month2-milestone",
+    "phaseId": "ds-phase-2",
+    "title": "Month 2 Milestone: Live Streamlit app + Kaggle notebook + certificate progress 50%",
+    "description": "Your Streamlit ML demo must be live. Your Kaggle competition submission must be in. You must be 50%+ through the DeepLearning.AI ML Specialization. Update LinkedIn with ML skills.",
+    "type": "monthly",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — 100 Days of ML (full playlist)", "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z" },
+      { "title": "DeepLearning.AI ML Specialization", "url": "https://www.coursera.org/specializations/machine-learning-introduction" }
+    ],
+    "week": 8
+  },
+  {
+    "id": "w9d1",
+    "phaseId": "ga-phase-1",
+    "title": "Anthropic Claude API quickstart: messages API, system prompts, streaming",
+    "description": "Sign up for Anthropic API. Complete the quickstart. Build a Python script that sends a message, receives a streaming response, and calculates token cost. Try 3 different system prompts.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — LLM APIs & GenAI Development", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic API Quickstart", "url": "https://docs.anthropic.com/en/docs/quickstart" }
+    ],
+    "week": 9,
+    "day": 1
+  },
+  {
+    "id": "w9d2",
+    "phaseId": "ga-phase-1",
+    "title": "Prompt engineering patterns: zero-shot, few-shot, chain-of-thought, role prompting",
+    "description": "Work through the Anthropic prompt engineering guide. For each pattern, write a concrete example and measure output quality differences. Build a notebook comparing 4 prompting strategies on the same task.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Prompt Engineering", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic Prompt Engineering Guide", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" },
+      { "title": "DeepLearning.AI ChatGPT Prompt Engineering (free)", "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" }
+    ],
+    "week": 9,
+    "day": 2
+  },
+  {
+    "id": "w9d3",
+    "phaseId": "ga-phase-1",
+    "title": "OpenAI API: completions, function calling, structured outputs with Pydantic",
+    "description": "Build a Python script using the OpenAI SDK that uses function calling to extract structured data (name, date, amount) from 10 invoice text samples. Validate output with Pydantic models.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Function Calling & Structured Outputs", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "OpenAI Function Calling Guide", "url": "https://platform.openai.com/docs/guides/function-calling" }
+    ],
+    "week": 9,
+    "day": 3
+  },
+  {
+    "id": "w9d4",
+    "phaseId": "ga-phase-1",
+    "title": "Advanced prompt patterns: XML tags, constitutional AI, multi-turn conversation design",
+    "description": "Study Anthropic's guide on XML tagging and constitutional prompting. Build a customer support bot with a multi-turn conversation loop, hard refusal instructions, and structured XML output.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Advanced Prompt Engineering", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic Docs — Use XML Tags", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags" }
+    ],
+    "week": 9,
+    "day": 4
+  },
+  {
+    "id": "w9d5",
+    "phaseId": "ga-phase-1",
+    "title": "Token economics: context windows, caching, batching — build a cost calculator",
+    "description": "Study Anthropic and OpenAI pricing pages. Build a Python script that estimates cost for a given prompt+response across 5 models. Implement prompt caching with Anthropic's cache_control API.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — LLM Token Economics & Cost Optimization", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic Prompt Caching Docs", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching" }
+    ],
+    "week": 9,
+    "day": 5
+  },
+  {
+    "id": "w9-weekly",
+    "phaseId": "ga-phase-1",
+    "title": "Build a multi-turn CLI chatbot with Claude: system prompt, memory, conversation history",
+    "description": "Build a CLI chatbot that maintains conversation history in a Python list and sends it with each API call. Add a /clear command, a /summarize command that compresses the conversation, and a /save command.",
+    "type": "weekly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — Building LLM Chatbots", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic Messages API", "url": "https://docs.anthropic.com/en/api/messages" }
+    ],
+    "week": 9
+  },
+  {
+    "id": "w10d1",
+    "phaseId": "ga-phase-1",
+    "title": "Text embeddings: OpenAI and Sentence-Transformers — cosine similarity, semantic search",
+    "description": "Generate embeddings for 100 Wikipedia sentences using both OpenAI text-embedding-3-small and sentence-transformers/all-MiniLM-L6-v2. Implement cosine similarity search from scratch. Compare results.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Text Embeddings & Semantic Search", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "OpenAI Embeddings Guide", "url": "https://platform.openai.com/docs/guides/embeddings" }
+    ],
+    "week": 10,
+    "day": 1
+  },
+  {
+    "id": "w10d2",
+    "phaseId": "ga-phase-1",
+    "title": "ChromaDB: create a local vector store, upsert documents, query by similarity",
+    "description": "Install ChromaDB. Embed 200 documents (use a Wikipedia dump or your own content), upsert into a Chroma collection, and build a semantic search function that returns top-5 with scores.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Vector Databases & ChromaDB", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "ChromaDB Quickstart", "url": "https://docs.trychroma.com/getting-started" }
+    ],
+    "week": 10,
+    "day": 2
+  },
+  {
+    "id": "w10d3",
+    "phaseId": "ga-phase-1",
+    "title": "RAG from scratch: chunk → embed → store → retrieve → augment → generate",
+    "description": "Build a minimal RAG pipeline in 150 lines of Python (no LangChain). Load a PDF, chunk by paragraphs, embed with sentence-transformers, store in Chroma, retrieve top-3 on query, generate answer with Claude.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — RAG from Scratch", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "DeepLearning.AI — LangChain Chat with Data (free)", "url": "https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/" }
+    ],
+    "week": 10,
+    "day": 3
+  },
+  {
+    "id": "w10d4",
+    "phaseId": "ga-phase-1",
+    "title": "LangChain fundamentals: chains, prompts, retrievers, memory, LCEL",
+    "description": "Work through the LangChain Expression Language (LCEL) quickstart. Rebuild your RAG pipeline using LangChain's RetrievalQA chain. Add ConversationBufferMemory for multi-turn support.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — LangChain Full Tutorial", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "LangChain LCEL Docs", "url": "https://python.langchain.com/docs/expression_language/" }
+    ],
+    "week": 10,
+    "day": 4
+  },
+  {
+    "id": "w10d5",
+    "phaseId": "ga-phase-1",
+    "title": "Pinecone vector database: create index, upsert with metadata, filtered retrieval",
+    "description": "Create a Pinecone account (free tier). Upsert your embedded documents with metadata (source, date, category). Test metadata filtering to retrieve only documents from a specific source.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Pinecone & Vector Databases", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Pinecone Quickstart", "url": "https://docs.pinecone.io/guides/get-started/quickstart" }
+    ],
+    "week": 10,
+    "day": 5
+  },
+  {
+    "id": "w10-weekly",
+    "phaseId": "ga-phase-1",
+    "title": "Start DeepLearning.AI short course: LangChain for LLM Application Development",
+    "description": "Complete the full free DeepLearning.AI course on LangChain (2–3 hours). Build the document Q&A app from the course. Add it to your GitHub.",
+    "type": "weekly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — LLM App Development", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "DeepLearning.AI LangChain Course (free)", "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/" }
+    ],
+    "week": 10
+  },
+  {
+    "id": "w11d1",
+    "phaseId": "ga-phase-2",
+    "title": "Anthropic tool use: define tools, handle tool_use blocks, multi-turn tool calling",
+    "description": "Build a Python agent that uses Anthropic's tool use API to answer questions by calling a web search tool (use Tavily or DuckDuckGo API). Handle multi-turn tool call loops correctly.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — AI Agents & Tool Use", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic Tool Use Guide", "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use" }
+    ],
+    "week": 11,
+    "day": 1
+  },
+  {
+    "id": "w11d2",
+    "phaseId": "ga-phase-2",
+    "title": "Build a ReAct agent from scratch: reason → act → observe loop without frameworks",
+    "description": "Implement a ReAct agent loop in pure Python using Claude. Give it 3 tools: calculator, Wikipedia search, and current datetime. Trace each step with verbose logging.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Building AI Agents from Scratch", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Anthropic Agents Guide", "url": "https://docs.anthropic.com/en/docs/build-with-claude/agents" }
+    ],
+    "week": 11,
+    "day": 2
+  },
+  {
+    "id": "w11d3",
+    "phaseId": "ga-phase-2",
+    "title": "Advanced RAG: hybrid search (BM25 + vector), reranking with cross-encoder",
+    "description": "Implement hybrid search: BM25 retrieval with rank_bm25 + vector retrieval with Chroma. Merge results with reciprocal rank fusion. Add a cross-encoder reranker with sentence-transformers.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Advanced RAG Techniques", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "rank_bm25 Library", "url": "https://github.com/dorianbrown/rank_bm25" }
+    ],
+    "week": 11,
+    "day": 3
+  },
+  {
+    "id": "w11d4",
+    "phaseId": "ga-phase-2",
+    "title": "Design and start building your RAG application: document Q&A on a domain you know",
+    "description": "Pick a meaningful domain (your university notes, a public technical manual, legislation, etc.). Design the chunking strategy, embedding model, and retrieval approach. Set up the project repo.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — RAG Application Design", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "LlamaIndex Docs", "url": "https://docs.llamaindex.ai/en/stable/" }
+    ],
+    "week": 11,
+    "day": 4
+  },
+  {
+    "id": "w11d5",
+    "phaseId": "ga-phase-2",
+    "title": "LlamaIndex: document loaders, node parsers, query engines, and evaluation",
+    "description": "Complete the LlamaIndex Starter Tutorial. Build a query engine over 5 PDFs. Evaluate retrieval quality with LlamaIndex's built-in evaluators (faithfulness, relevancy).",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — LlamaIndex Tutorial", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "LlamaIndex Starter Tutorial", "url": "https://docs.llamaindex.ai/en/stable/getting_started/starter_example/" }
+    ],
+    "week": 11,
+    "day": 5
+  },
+  {
+    "id": "w11-weekly",
+    "phaseId": "ga-phase-2",
+    "title": "RAG app prototype: working end-to-end with a simple Gradio or Streamlit interface",
+    "description": "Your RAG app must accept a question, retrieve relevant chunks, and generate a grounded answer with source citations. Deploy a working prototype on Streamlit Cloud or HuggingFace Spaces.",
+    "type": "weekly",
+    "estMinutes": 240,
+    "resources": [
+      { "title": "CampusX — Deploy RAG App", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "HuggingFace Spaces Docs", "url": "https://huggingface.co/docs/hub/spaces" }
+    ],
+    "week": 11
+  },
+  {
+    "id": "w12d1",
+    "phaseId": "ga-phase-2",
+    "title": "OpenAI Assistants API: file search, code interpreter, persistent threads",
+    "description": "Build an assistant using the OpenAI Assistants API with file_search enabled on your RAG corpus. Test persistent thread memory across sessions. Compare output quality against your manual RAG.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — OpenAI Assistants API", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "OpenAI Assistants Overview", "url": "https://platform.openai.com/docs/assistants/overview" }
+    ],
+    "week": 12,
+    "day": 1
+  },
+  {
+    "id": "w12d2",
+    "phaseId": "ga-phase-2",
+    "title": "Anthropic Model Context Protocol (MCP): build a custom MCP server with 3 tools",
+    "description": "Study the MCP specification. Build a local MCP server in Python that exposes 3 tools: filesystem reader, database query, and web scraper. Test it with Claude Desktop.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — MCP & Agent Protocols", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "MCP Introduction", "url": "https://modelcontextprotocol.io/introduction" }
+    ],
+    "week": 12,
+    "day": 2
+  },
+  {
+    "id": "w12d3",
+    "phaseId": "ga-phase-2",
+    "title": "Fine-tuning fundamentals: LoRA and QLoRA theory + run a fine-tuning job on OpenAI",
+    "description": "Read the LoRA paper abstract and the HuggingFace PEFT docs. Run a fine-tuning job on OpenAI (gpt-4o-mini) with 50 custom examples. Evaluate the fine-tuned model vs base.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Fine-tuning LLMs & LoRA", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "HuggingFace PEFT Docs", "url": "https://huggingface.co/docs/peft/index" }
+    ],
+    "week": 12,
+    "day": 3
+  },
+  {
+    "id": "w12d4",
+    "phaseId": "ga-phase-2",
+    "title": "Complete and polish RAG application: add evaluation scores, confidence display, citations",
+    "description": "Finalize your RAG app: add per-answer faithfulness and relevancy scores from RAGAS, show retrieved chunks as expandable citations, handle no-answer gracefully. Write a comprehensive README.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — RAG Evaluation & RAGAS", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "RAGAS Evaluation Framework", "url": "https://docs.ragas.io/en/stable/" }
+    ],
+    "week": 12,
+    "day": 4
+  },
+  {
+    "id": "w12d5",
+    "phaseId": "ga-phase-2",
+    "title": "Deploy RAG app to production: Vercel (Next.js frontend) + Railway/Render (FastAPI backend)",
+    "description": "Build a minimal Next.js frontend for your RAG app. Deploy FastAPI backend on Railway free tier. Connect frontend to API. Add the live URL to your GitHub README and LinkedIn.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Deploying AI Apps to Production", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Railway Docs", "url": "https://docs.railway.app/" }
+    ],
+    "week": 12,
+    "day": 5
+  },
+  {
+    "id": "w12-weekly",
+    "phaseId": "ga-phase-2",
+    "title": "Build and deploy agent project: web research agent with tool use, deployed on HF Spaces",
+    "description": "Build a web research agent using Claude + tool use: it takes a research question, searches the web, reads 3 sources, and writes a structured report. Deploy on HuggingFace Spaces with Gradio.",
+    "type": "weekly",
+    "estMinutes": 300,
+    "resources": [
+      { "title": "CampusX — Building & Deploying AI Agents", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "HuggingFace Spaces Deployment", "url": "https://huggingface.co/docs/hub/spaces" }
+    ],
+    "week": 12
+  },
+  {
+    "id": "month3-milestone",
+    "phaseId": "ga-phase-2",
+    "title": "Month 3 Milestone: 2 deployed AI projects live + AWS AI Practitioner exam booked",
+    "description": "Both your RAG app and agent project must be deployed with public URLs. AWS AI Practitioner exam must be scheduled. Update LinkedIn with GenAI skills: LLM APIs, RAG, agents, vector databases.",
+    "type": "monthly",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — GenAI Roadmap Review", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "AWS AI Practitioner Exam Guide", "url": "https://aws.amazon.com/certification/certified-ai-practitioner/" },
+      { "title": "AWS Skill Builder — AI Practitioner", "url": "https://skillbuilder.aws/learn/public/learning-plan/view/1944/aws-certified-ai-practitioner-learning-plan" }
+    ],
+    "week": 12
+  },
+  {
+    "id": "w13d1",
+    "phaseId": "ga-phase-3",
+    "title": "LLM evaluation with RAGAS: faithfulness, answer relevancy, context precision/recall",
+    "description": "Run RAGAS evaluation on your RAG app with a test set of 20 Q&A pairs. Compute faithfulness, answer relevancy, context precision, and context recall. Identify and fix the weakest metric.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — LLM Evaluation Metrics", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "RAGAS Docs", "url": "https://docs.ragas.io/en/stable/" },
+      { "title": "DeepLearning.AI — Building & Evaluating Advanced RAG (free)", "url": "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/" }
+    ],
+    "week": 13,
+    "day": 1
+  },
+  {
+    "id": "w13d2",
+    "phaseId": "ga-phase-3",
+    "title": "HuggingFace Transformers: load, tokenize, run inference, and push a model to the Hub",
+    "description": "Load BERT and GPT-2 with the Transformers library. Run inference on 10 text samples. Fine-tune GPT-2 on 100 custom sentences using Trainer API. Push the fine-tuned model to HuggingFace Hub.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — HuggingFace Transformers", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "HuggingFace NLP Course (free)", "url": "https://huggingface.co/learn/nlp-course/chapter1/1" }
+    ],
+    "week": 13,
+    "day": 2
+  },
+  {
+    "id": "w13d3",
+    "phaseId": "ga-phase-3",
+    "title": "Vercel AI SDK: streaming chat UI in Next.js with useChat hook and server actions",
+    "description": "Build a streaming chat UI using Vercel AI SDK with useChat. Connect to Claude via the Anthropic provider. Add a system prompt selector with 3 personas. Deploy to Vercel.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Building Chat Interfaces with LLMs", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Vercel AI SDK Docs", "url": "https://sdk.vercel.ai/docs/introduction" }
+    ],
+    "week": 13,
+    "day": 3
+  },
+  {
+    "id": "w13d4",
+    "phaseId": "ga-phase-3",
+    "title": "AWS AI Practitioner exam prep: 60 practice questions + review weak areas",
+    "description": "Complete 60 AWS practice questions from AWS Skill Builder or Whizlabs. Score per domain. Review any domain below 70%. Read the AWS AI/ML service overview whitepapers for weak areas.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "AWS Skill Builder Practice Exams", "url": "https://skillbuilder.aws/learn/public/learning-plan/view/1944/aws-certified-ai-practitioner-learning-plan" },
+      { "title": "AWS AI/ML Services Overview", "url": "https://aws.amazon.com/machine-learning/" }
+    ],
+    "week": 13,
+    "day": 4
+  },
+  {
+    "id": "w13d5",
+    "phaseId": "ae-phase-1",
+    "title": "System design for AI apps: stateless APIs, async queues, caching layers, rate limiting",
+    "description": "Study the AI system design primer. Design the architecture for your RAG app at 1000 concurrent users: identify bottlenecks, add Redis caching for embeddings, describe a job queue for slow requests.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — System Design for ML/AI Applications", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "System Design Primer", "url": "https://github.com/donnemartin/system-design-primer" }
+    ],
+    "week": 13,
+    "day": 5
+  },
+  {
+    "id": "w13-weekly",
+    "phaseId": "ae-phase-1",
+    "title": "Containerize your RAG FastAPI backend with Docker and docker-compose",
+    "description": "Write a Dockerfile for your FastAPI backend. Write a docker-compose.yml with the app + a Redis container. Verify the app starts cleanly with docker-compose up. Add Makefile targets for build/up/down.",
+    "type": "weekly",
+    "estMinutes": 240,
+    "resources": [
+      { "title": "CampusX — Docker for Data Scientists", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Docker Get Started", "url": "https://docs.docker.com/get-started/" },
+      { "title": "FastAPI + Docker", "url": "https://fastapi.tiangolo.com/deployment/docker/" }
+    ],
+    "week": 13
+  },
+  {
+    "id": "w14d1",
+    "phaseId": "ae-phase-1",
+    "title": "GitHub Actions CI: run tests and linting on every PR for your RAG project",
+    "description": "Write a .github/workflows/ci.yml that runs pytest, ruff linter, and mypy type checker on every push to main. Add a status badge to your README. Fix any linting errors surfaced.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — CI/CD for ML Projects", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "GitHub Actions Quickstart", "url": "https://docs.github.com/en/actions/writing-workflows/quickstart" }
+    ],
+    "week": 14,
+    "day": 1
+  },
+  {
+    "id": "w14d2",
+    "phaseId": "ae-phase-1",
+    "title": "API design for AI services: REST conventions, error schemas, versioning, OpenAPI spec",
+    "description": "Refactor your FastAPI backend to follow REST conventions. Add Pydantic error schemas, a /health endpoint, API versioning (v1/). Auto-generate OpenAPI spec and verify it with swagger-ui.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — FastAPI for AI Applications", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "FastAPI Docs — Bigger Applications", "url": "https://fastapi.tiangolo.com/tutorial/bigger-applications/" }
+    ],
+    "week": 14,
+    "day": 2
+  },
+  {
+    "id": "w14d3",
+    "phaseId": "ae-phase-1",
+    "title": "Observability: add structured logging, Sentry error tracking, and basic metrics to your app",
+    "description": "Add structlog for structured JSON logging to your FastAPI app. Integrate Sentry SDK for error tracking (free tier). Add a Prometheus-compatible /metrics endpoint using prometheus-fastapi-instrumentator.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — MLOps & Monitoring", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "structlog Docs", "url": "https://www.structlog.org/en/stable/" }
+    ],
+    "week": 14,
+    "day": 3
+  },
+  {
+    "id": "w14d4",
+    "phaseId": "ae-phase-2",
+    "title": "Build your portfolio site: Next.js 14 with 4 project cards, about section, and contact form",
+    "description": "Build a personal portfolio site using Next.js 14 App Router. Include: hero section, about, 4 project cards (your 4 projects), skills section, and a contact form (use Resend or Formspree). Deploy to Vercel.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — AI Engineer Portfolio", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Vercel Deploy Docs", "url": "https://vercel.com/docs/deployments/overview" }
+    ],
+    "week": 14,
+    "day": 4
+  },
+  {
+    "id": "w14d5",
+    "phaseId": "ae-phase-2",
+    "title": "Write your AI Engineer resume: 1-page format, quantified achievements, ATS-optimized",
+    "description": "Write your resume using the XYZ format (Accomplished X as measured by Y by doing Z). Include your 4 projects with live links and metrics. Scan with an ATS checker (Jobscan or Resume Worded).",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Data Science / AI Resume Tips", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Resume Worded", "url": "https://resumeworded.com/" }
+    ],
+    "week": 14,
+    "day": 5
+  },
+  {
+    "id": "w14-weekly",
+    "phaseId": "ae-phase-2",
+    "title": "LinkedIn profile overhaul: headline, about, experience, featured projects, skills",
+    "description": "Rewrite your LinkedIn headline to include target role and top skills. Write a 3-paragraph About section. Update all experience with quantified bullets. Add all 4 projects to Featured. Request 3 endorsements.",
+    "type": "weekly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — LinkedIn & Job Hunting for Data Scientists", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "LinkedIn Profile for Engineers Guide", "url": "https://www.levels.fyi/blog/linkedin-for-software-engineers.html" }
+    ],
+    "week": 14
+  },
+  {
+    "id": "w15d1",
+    "phaseId": "ae-phase-2",
+    "title": "DSA day 1: arrays and strings — solve 2 LeetCode easy/medium problems",
+    "description": "Solve Two Sum (LC #1) and Longest Substring Without Repeating Characters (LC #3). Time yourself to 30 min each. Write your approach and time complexity in a comment before coding.",
+    "type": "daily",
+    "estMinutes": 60,
+    "resources": [
+      { "title": "CampusX — DSA for Interviews", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "NeetCode Roadmap", "url": "https://neetcode.io/roadmap" },
+      { "title": "LeetCode", "url": "https://leetcode.com/" }
+    ],
+    "week": 15,
+    "day": 1
+  },
+  {
+    "id": "w15d2",
+    "phaseId": "ae-phase-2",
+    "title": "Naukri profile setup: headline, skills, resume upload, job alerts for AI roles in India",
+    "description": "Create or update your Naukri.com profile. Upload your polished resume. Set job alerts for: AI Engineer, ML Engineer, Data Scientist in Bangalore/Hyderabad/Remote. Apply to 3 matching roles.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Job Hunting for Data Scientists in India", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Naukri.com", "url": "https://www.naukri.com/" }
+    ],
+    "week": 15,
+    "day": 2
+  },
+  {
+    "id": "w15d3",
+    "phaseId": "ae-phase-2",
+    "title": "DSA day 2: linked lists — solve Reverse Linked List (LC #206) and Merge Two Sorted Lists (LC #21)",
+    "description": "Solve both problems iteratively first, then recursively. Draw the pointer diagrams before coding. Review solutions on NeetCode after.",
+    "type": "daily",
+    "estMinutes": 60,
+    "resources": [
+      { "title": "CampusX — Linked Lists DSA", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "NeetCode Linked Lists Playlist", "url": "https://www.youtube.com/watch?v=G0_I-ZF0S38" }
+    ],
+    "week": 15,
+    "day": 3
+  },
+  {
+    "id": "w15d4",
+    "phaseId": "ae-phase-2",
+    "title": "Indeed and Wellfound (EU/Ireland focus): create profiles and apply to 3 roles each",
+    "description": "Create profiles on Indeed and Wellfound. On Wellfound, fill out your AI Engineer profile completely (it's used by startups heavily in EU/Ireland). Apply to 3 matching roles on each platform.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "Wellfound (AngelList Talent)", "url": "https://wellfound.com/" },
+      { "title": "Indeed Ireland", "url": "https://ie.indeed.com/" }
+    ],
+    "week": 15,
+    "day": 4
+  },
+  {
+    "id": "w15d5",
+    "phaseId": "ae-phase-2",
+    "title": "DSA day 3: trees — Binary Tree Level Order Traversal (LC #102) and Maximum Depth (LC #104)",
+    "description": "Implement BFS level-order traversal using a deque. Implement recursive and iterative DFS for max depth. Explain time/space complexity for both.",
+    "type": "daily",
+    "estMinutes": 60,
+    "resources": [
+      { "title": "CampusX — Trees & Binary Trees DSA", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "NeetCode Trees Playlist", "url": "https://www.youtube.com/watch?v=OnSn2XEQ4MY" }
+    ],
+    "week": 15,
+    "day": 5
+  },
+  {
+    "id": "w15-weekly-1",
+    "phaseId": "ae-phase-2",
+    "title": "Mock interview session 1: 45-min technical interview with a peer or on Pramp",
+    "description": "Book a mock interview on Pramp (free) or with a peer. 45 minutes: one DSA problem + one ML/AI system design question. Record it. Review the recording and note 3 areas to improve.",
+    "type": "weekly",
+    "estMinutes": 90,
+    "resources": [
+      { "title": "CampusX — Cracking Data Science Interviews", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Pramp — Free Mock Interviews", "url": "https://www.pramp.com/" }
+    ],
+    "week": 15
+  },
+  {
+    "id": "w15-weekly-2",
+    "phaseId": "ae-phase-2",
+    "title": "LinkedIn outreach: send 10 connection requests to AI engineers and 3 cold messages",
+    "description": "Identify 10 AI Engineers or ML Engineers at target companies on LinkedIn. Send personalized connection requests (note: mention something specific about their work). Send 3 cold messages to recruiters at top target companies.",
+    "type": "weekly",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Networking & Job Hunting Tips", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "LinkedIn Networking Templates", "url": "https://www.themuse.com/advice/linkedin-connection-request-message-examples" }
+    ],
+    "week": 15
+  },
+  {
+    "id": "w16d1",
+    "phaseId": "ae-phase-2",
+    "title": "DSA day 4: dynamic programming — Climbing Stairs (LC #70) and Coin Change (LC #322)",
+    "description": "Solve both with top-down memoization first, then bottom-up tabulation. Draw the DP table for Coin Change. Write the recurrence relation explicitly.",
+    "type": "daily",
+    "estMinutes": 60,
+    "resources": [
+      { "title": "CampusX — Dynamic Programming", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "NeetCode DP Playlist", "url": "https://www.youtube.com/watch?v=Y0lT9Fck7qI" }
+    ],
+    "week": 16,
+    "day": 1
+  },
+  {
+    "id": "w16d2",
+    "phaseId": "ae-phase-2",
+    "title": "Behavioral interview prep: STAR stories for top 10 interview questions",
+    "description": "Write STAR format answers for: Tell me about yourself, biggest challenge, conflict with a teammate, a project you're proud of, a failure and what you learned, why AI Engineering, how you stay current, a time you had to learn fast, leadership example, and your biggest weakness.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Behavioral Interview Preparation", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "STAR Method Guide", "url": "https://www.themuse.com/advice/star-interview-method" }
+    ],
+    "week": 16,
+    "day": 2
+  },
+  {
+    "id": "w16d3",
+    "phaseId": "ae-phase-2",
+    "title": "DSA day 5: graphs — Number of Islands (LC #200) and Clone Graph (LC #133)",
+    "description": "Solve Number of Islands with both DFS and BFS. Solve Clone Graph iteratively. Discuss when to prefer DFS vs BFS for graph problems.",
+    "type": "daily",
+    "estMinutes": 60,
+    "resources": [
+      { "title": "CampusX — Graphs DSA", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "NeetCode Graphs Playlist", "url": "https://www.youtube.com/watch?v=tWVWeAqZ0WU" }
+    ],
+    "week": 16,
+    "day": 3
+  },
+  {
+    "id": "w16d4",
+    "phaseId": "ae-phase-2",
+    "title": "AI system design interview prep: design a RAG system, a recommendation engine, and a fraud detector",
+    "description": "Write 1-page design documents for each system. For RAG: address chunking strategy, embedding model choice, retrieval, generation, evaluation. Practice explaining each design out loud in 10 minutes.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — ML System Design Interview", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Chip Huyen — ML Systems Design", "url": "https://huyenchip.com/machine-learning-systems-design/toc.html" }
+    ],
+    "week": 16,
+    "day": 4
+  },
+  {
+    "id": "w16d5",
+    "phaseId": "ae-phase-2",
+    "title": "Mock interview session 2 + review all applications and follow up on any pending",
+    "description": "Do a second Pramp mock interview. Review all job applications submitted — follow up via email on any applied 2+ weeks ago. Update your job tracker in this app.",
+    "type": "daily",
+    "estMinutes": 120,
+    "resources": [
+      { "title": "CampusX — Interview Cracking Playlist", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Pramp", "url": "https://www.pramp.com/" }
+    ],
+    "week": 16,
+    "day": 5
+  },
+  {
+    "id": "w16-weekly-1",
+    "phaseId": "ae-phase-2",
+    "title": "Final portfolio review: all 4 projects live, portfolio site deployed, resume v2 complete",
+    "description": "Verify all 4 projects are live with public URLs. Portfolio site deployed on Vercel. Resume scored 80+ on Resume Worded. LinkedIn profile strength: All-Star. Everything links to everything.",
+    "type": "weekly",
+    "estMinutes": 180,
+    "resources": [
+      { "title": "CampusX — AI Engineer Career Roadmap", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Resume Worded", "url": "https://resumeworded.com/" }
+    ],
+    "week": 16
+  },
+  {
+    "id": "w16-weekly-2",
+    "phaseId": "ae-phase-2",
+    "title": "Apply to 5 senior target companies and write custom cover letters for each",
+    "description": "Identify your top 5 target companies (mix of product and services companies, India + EU options). Write tailored cover letters referencing their specific AI work. Apply via LinkedIn Easy Apply + direct company career pages.",
+    "type": "weekly",
+    "estMinutes": 240,
+    "resources": [
+      { "title": "CampusX — Job Hunting Strategy for AI Roles", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "Levels.fyi — Company Research", "url": "https://www.levels.fyi/" }
+    ],
+    "week": 16
+  },
+  {
+    "id": "month4-milestone",
+    "phaseId": "ae-phase-2",
+    "title": "Month 4 Milestone: AWS cert earned + 20+ applications submitted + first interview scheduled",
+    "description": "AWS AI Practitioner certificate must be earned and uploaded to LinkedIn. Minimum 20 job applications submitted across LinkedIn/Naukri/Indeed/Wellfound. At least 1 interview or screening call scheduled.",
+    "type": "monthly",
+    "estMinutes": 60,
+    "resources": [
+      { "title": "CampusX — Placement & Career Tips", "url": "https://www.youtube.com/@campusx-official" },
+      { "title": "AWS Certification Portal", "url": "https://aws.amazon.com/certification/certification-prep/testing/" }
+    ],
+    "week": 16
+  }
+]
