@@ -26,6 +26,9 @@ export default function RootLayout({
         <div className="relative z-10 flex flex-col min-h-screen">
           <Nav />
           <main className="flex-1">{children}</main>
+          <footer className="text-center text-slate-500 text-xs py-4 border-t border-slate-800/50">
+            Made with ♥ by Eshan
+          </footer>
         </div>
 
         <ChatBot />
