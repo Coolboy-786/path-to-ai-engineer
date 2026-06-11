@@ -23,10 +23,10 @@ export default function RoadmapGraph({ paths }: Props) {
           <div key={path.id} className="flex items-center flex-1">
             <Link
               href={`/path/${path.id}`}
-              className="group flex-1 max-w-[200px]"
+              className="group flex-1 max-w-[200px] overflow-visible"
             >
               <div
-                className="relative rounded-2xl border-2 p-5 transition-all duration-200 hover:scale-105 hover:shadow-lg"
+                className="relative rounded-2xl border-2 p-5 pt-6 transition-all duration-200 hover:scale-105 hover:shadow-lg"
                 style={{
                   borderColor: path.isActive ? path.accent : `${path.accent}40`,
                   backgroundColor: `${path.accent}0d`,
